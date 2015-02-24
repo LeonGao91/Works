@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AtCMUA</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="activity_login">Login</string>
+        <string-array name="menu_array">
+        <item>Blog</item>
+        <item>Contact</item>
+        <item>Logout</item>
+    </string-array>
+    
+    <!-- for drawer open & close listener -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+</resources>

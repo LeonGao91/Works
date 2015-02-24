@@ -1,0 +1,3 @@
+http://docs.elgg.org/wiki/Engine/Functions
+
+http://reference.elgg.org/engine_2lib_2metadata_8php.html#aec4b6f0b9565e3554acb9b39ef34a2ac

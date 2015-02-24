@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/contact_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <LinearLayout
+            android:id="@+id/contact_thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:orientation="vertical"
+            android:padding="3dip" >
+
+            <ImageView
+                android:id="@+id/contact_avatar"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:contentDescription="Avatar of contact" />
+
+            <TextView
+                android:id="@+id/contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="the contact_name"
+                android:textColor="#040404"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+        </LinearLayout>
+    </RelativeLayout>
+<LinearLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:orientation="vertical"
+            android:padding="3dip" >
+        </LinearLayout>
+        <!--  
+    <TextView
+        android:id="@+id/about_me"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="About Me"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/about_me_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="about_me_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="Description"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/description_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="description_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="email"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/email_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="email_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/telephone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="telephone"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/telephone_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="telephone_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/mobile_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="mobile_phone"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/mobile_phone_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="mobile_phone_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/attribute6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="6"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/attribute6_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="6_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="location"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/location_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="location_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/interest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="interest"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/interest_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="interest_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/skills"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="skills"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/skills_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="skills_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/twitter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="twitter"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/twitter_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="twitter_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/attribute11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="11"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/attribute11_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="11_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:typeface="sans" />
+        
+        -->
+
+</LinearLayout>

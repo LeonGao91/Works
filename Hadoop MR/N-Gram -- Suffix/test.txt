@@ -1,0 +1,8 @@
+I	90
+I have	80
+I have a	70
+I have a dream	60
+I have a apple	36
+I have a pen	28
+I have a pencil	66
+I have a yummy blue	32
